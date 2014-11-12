@@ -1,4 +1,4 @@
 puppet-haveged
 ==============
 
-Puppet module to instal and manage haveged
+Puppet module to install and manage haveged
