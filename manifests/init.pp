@@ -20,6 +20,6 @@ class haveged (
 	validate_string($service_ensure)
 	validate_string($service_name)
 
-	class{ 'bitlbee::install': }->
-	class{ 'bitlbee::service': }
+	class{ 'haveged::install': }->
+	class{ 'haveged::service': }
 }
